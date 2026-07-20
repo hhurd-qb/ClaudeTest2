@@ -1,0 +1,6 @@
+{
+  "name": "quickbase-context",
+  "version": "1.0.0",
+  "description": "Quickbase company knowledge lookup - triggers on everyday Quickbase-related prompts, reads QB Company Context 2026-07 as canonical source",
+  "author": { "name": "Henry Hurd", "email": "hhurd@quickbase.com" }
+}
