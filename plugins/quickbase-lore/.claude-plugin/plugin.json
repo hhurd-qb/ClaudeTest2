@@ -1,0 +1,6 @@
+{
+  "name": "quickbase-lore",
+  "version": "1.0.0",
+  "description": "Surfaces Quickbase company lore, running jokes, legends, and onboarding icebreakers",
+  "author": { "name": "Henry Hurd", "email": "hhurd@quickbase.com" }
+}
