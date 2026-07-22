@@ -1,0 +1,9 @@
+{
+  "name": "quickbase-context",
+  "version": "1.0.1",
+  "description": "IAS skill: quickbase-context (team)",
+  "author": {
+    "name": "Henry Hurd",
+    "email": "hhurd@quickbase.com"
+  }
+}
