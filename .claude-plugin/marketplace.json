@@ -43,6 +43,12 @@
       "description": "IAS skill: skill-example-test (enterprise)",
       "source": "./plugins/skill-example-test",
       "category": "productivity"
+    },
+    {
+      "name": "gtm-plays-brainstorm",
+      "description": "IAS skill: gtm-plays-brainstorm (enterprise)",
+      "source": "./plugins/gtm-plays-brainstorm",
+      "category": "productivity"
     }
   ]
 }
