@@ -43,6 +43,12 @@
       "description": "IAS skill: skill-example-test (enterprise)",
       "source": "./plugins/skill-example-test",
       "category": "productivity"
+    },
+    {
+      "name": "desk-plant-doctor",
+      "description": "IAS skill: desk-plant-doctor (enterprise)",
+      "source": "./plugins/desk-plant-doctor",
+      "category": "productivity"
     }
   ]
 }
