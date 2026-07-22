@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "quickbase-context",
-      "description": "Quickbase company knowledge lookup - triggers on everyday Quickbase-related prompts, reads QB Company Context 2026-07 as canonical source",
+      "description": "IAS skill: quickbase-context (team)",
       "source": "./plugins/quickbase-context",
       "category": "productivity"
     },
