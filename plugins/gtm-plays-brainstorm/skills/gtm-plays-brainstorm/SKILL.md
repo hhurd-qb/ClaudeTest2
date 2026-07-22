@@ -1,5 +1,18 @@
 ---
-name: gtm-plays-brainstorm description: Brainstorm and prioritize automated outbound and GTM plays for a B2B SaaS product. Use this skill whenever a user asks which automated GTM plays to run, wants help with outbound automation strategy, is brainstorming signal-based campaigns, or wants to know what outbound and sales motions to automate for their B2B company. Trigger when someone says "what plays should I run," "help me with automated outbound," "what GTM automations make sense for us," "I want to build a signal-based outreach program," or asks for a prioritized list of outbound or GTM ideas. Also use when someone describes a B2B product and wants to know where to start with automated prospecting — even if they don't explicitly say "plays." Use this skill proactively whenever a user shares a product description, ICP, or GTM motion and asks how to grow or find customers faster.
+name: gtm-plays-brainstorm
+description: >
+  Brainstorm and prioritize automated outbound and GTM plays for a B2B SaaS
+  product. Use this skill whenever a user asks which automated GTM plays to
+  run, wants help with outbound automation strategy, is brainstorming
+  signal-based campaigns, or wants to know what outbound and sales motions
+  to automate for their B2B company. Trigger when someone says "what plays
+  should I run," "help me with automated outbound," "what GTM automations
+  make sense for us," "I want to build a signal-based outreach program," or
+  asks for a prioritized list of outbound or GTM ideas. Also use when
+  someone describes a B2B product and wants to know where to start with
+  automated prospecting — even if they don't explicitly say "plays." Use
+  this skill proactively whenever a user shares a product description, ICP,
+  or GTM motion and asks how to grow or find customers faster.
 ---
 
 # GTM Plays Brainstorm
@@ -39,10 +52,10 @@ Read `references/plays-library.md` in full. It contains 25+ plays organized by c
 
 With company context in hand and the plays library loaded, select **5-8 plays** in priority order. Apply these filters:
 
-* Does this company realistically have access to the underlying signal? If not, flag as "Future State" rather than skipping entirely.
-* Does the play fit their GTM motion?
-* Is the sophistication level appropriate for their stage?
-* Is there a specific, high-conviction reason this play fits this company in particular?
+- Does this company realistically have access to the underlying signal? If not, flag as "Future State" rather than skipping entirely.
+- Does the play fit their GTM motion?
+- Is the sophistication level appropriate for their stage?
+- Is there a specific, high-conviction reason this play fits this company in particular?
 
 Be opinionated. Skip plays that don't fit. Don't pad the list with generic options. If two plays are very similar, pick the better one. Call out the one or two plays you'd stake a reputation on for this company.
 
@@ -54,8 +67,8 @@ Use this format exactly:
 
 ## Recommended GTM Plays for [Company/Product Name]
 
-**GTM motion**: [Sales-led / PLG / Marketing-led / Hybrid]  
-**Stage**: [Early / Growth / Scaling]  
+**GTM motion**: [Sales-led / PLG / Marketing-led / Hybrid]
+**Stage**: [Early / Growth / Scaling]
 **Biggest untapped signal**: [One sentence on the highest-leverage signal this company isn't yet operationalizing]
 
 ---
@@ -64,9 +77,9 @@ Use this format exactly:
 
 **[Rank]. [Play Name]** · [Category] · Difficulty: [Beginner / Intermediate / Advanced]
 
-**Signal**: [What triggers this play — be specific]  
-**How it works**: [2-3 sentence description of the automation workflow, including how data flows]  
-**Tools**: [Comma-separated tools that enable this]  
+**Signal**: [What triggers this play — be specific]
+**How it works**: [2-3 sentence description of the automation workflow, including how data flows]
+**Tools**: [Comma-separated tools that enable this]
 **Why this fits you**: [1-2 sentences grounded specifically in their product, ICP, or motion — not generic]
 
 ---
@@ -88,4 +101,3 @@ Use this format exactly:
 ## Tone
 
 Write like a senior GTM practitioner giving direct advice — specific, grounded, and opinionated. Avoid hedge-everything consulting language. If a play is a clear winner for this company, say so. If a play is tempting but wrong for their stage, say why you left it out.
-
