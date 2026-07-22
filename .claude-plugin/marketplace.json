@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "quickbase-context",
-      "description": "Quickbase company knowledge lookup - triggers on everyday Quickbase-related prompts",
+      "description": "Quickbase company knowledge lookup - triggers on everyday Quickbase-related prompts, reads QB Company Context 2026-07 as canonical source",
       "source": "./plugins/quickbase-context",
       "category": "productivity"
     },
@@ -18,6 +18,30 @@
       "name": "quickbase-lore",
       "description": "Surfaces Quickbase company lore, running jokes, and onboarding icebreakers",
       "source": "./plugins/quickbase-lore",
+      "category": "productivity"
+    },
+    {
+      "name": "quickbase-company-info",
+      "description": "IAS skill: quickbase-company-info (enterprise)",
+      "source": "./plugins/quickbase-company-info",
+      "category": "productivity"
+    },
+    {
+      "name": "quickbase-info",
+      "description": "IAS skill: quickbase-info (enterprise)",
+      "source": "./plugins/quickbase-info",
+      "category": "productivity"
+    },
+    {
+      "name": "confluence-submit",
+      "description": "IAS skill: confluence-submit (enterprise)",
+      "source": "./plugins/confluence-submit",
+      "category": "productivity"
+    },
+    {
+      "name": "skill-example-test",
+      "description": "IAS skill: skill-example-test (enterprise)",
+      "source": "./plugins/skill-example-test",
       "category": "productivity"
     }
   ]
