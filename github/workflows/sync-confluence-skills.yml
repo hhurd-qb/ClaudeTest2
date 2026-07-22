@@ -1,0 +1,57 @@
+name: Sync Accepted IAS Skills from Confluence
+
+on:
+  workflow_dispatch: {}      # manual "Run workflow" button
+  schedule:
+    - cron: "0 13 * * *"     # daily at 9am ET / 13:00 UTC — adjust as needed
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run Confluence sync
+        id: sync
+        env:
+          CONFLUENCE_EMAIL: ${{ secrets.CONFLUENCE_EMAIL }}
+          CONFLUENCE_API_TOKEN: ${{ secrets.CONFLUENCE_API_TOKEN }}
+          CONFLUENCE_SITE: quickbase.atlassian.net
+          CLOUD_ID: 20d966ed-3d3f-4c0c-b14b-c1dbb9bb6aa7
+          REPO_ROOT: .
+        run: python scripts/sync_confluence_to_marketplace.py
+
+      - name: Open PR with changes
+        id: cpr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "Sync accepted IAS skills from Confluence"
+          title: "Sync accepted IAS skills from Confluence"
+          body: |
+            Automated sync from Confluence "Accepted (Team)" and
+            "Accepted (Enterprise)" pages. Only depth-1 pages under each
+            root are included; audit-summary child pages are excluded.
+
+            Review the diff, then merge to trigger the org marketplace
+            auto-sync (merge with a version bump is what fires the webhook).
+          branch: confluence-skill-sync
+          delete-branch: true
+
+      - name: Merge PR
+        if: steps.cpr.outputs.pull-request-number != ''
+        run: gh pr merge confluence-skill-sync --squash --delete-branch
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
