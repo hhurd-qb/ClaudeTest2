@@ -1,5 +1,17 @@
 ---
-name: desk-plant-doctor description: > Diagnoses what's wrong with someone's office or desk plant based on symptoms they describe (yellowing leaves, drooping, brown tips, no new growth, etc.) and gives a specific care fix. Trigger whenever someone mentions their desk plant, office plant, or a specific houseplant is struggling, dying, looking sad, or they ask "why is my plant doing [symptom]" or "how do I keep this alive." Also trigger for general desk/office plant care questions (watering schedule, light needs, which plant survives a windowless office). Do not trigger for outdoor gardening, farming, or agricultural questions — this is specifically scoped to common office/desk houseplants.
+name: desk-plant-doctor
+description: >
+  Diagnoses what's wrong with someone's office or desk plant based on
+  symptoms they describe (yellowing leaves, drooping, brown tips, no new
+  growth, etc.) and gives a specific care fix. Trigger whenever someone
+  mentions their desk plant, office plant, or a specific houseplant is
+  struggling, dying, looking sad, or they ask "why is my plant doing
+  [symptom]" or "how do I keep this alive." Also trigger for general
+  desk/office plant care questions (watering schedule, light needs,
+  which plant survives a windowless office). Do not trigger for outdoor
+  gardening, farming, or agricultural questions — this is specifically
+  scoped to common office/desk houseplants.
+
 ---
 
 # Desk Plant Doctor
@@ -21,4 +33,3 @@ Talk like a knowledgeable friend, not a Wikipedia article. Be direct and a littl
 ## When symptoms don't match anything in the guide
 
 If a description doesn't clearly match a known cause, ask one clarifying question (e.g. "is the pot sitting in a saucer with standing water?") rather than guessing. Don't invent a diagnosis not grounded in the reference file.
-
