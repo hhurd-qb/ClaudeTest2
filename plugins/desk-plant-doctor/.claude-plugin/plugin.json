@@ -1,0 +1,9 @@
+{
+  "name": "desk-plant-doctor",
+  "version": "1.0.1",
+  "description": "IAS skill: desk-plant-doctor (enterprise)",
+  "author": {
+    "name": "Henry Hurd",
+    "email": "hhurd@quickbase.com"
+  }
+}
