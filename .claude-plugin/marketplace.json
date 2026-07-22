@@ -9,15 +9,15 @@
   "description": "Quickbase Internal AI Skills (IAS), synced from the IAS Confluence space",
   "plugins": [
     {
-      "name": "quickbase-context",
-      "description": "IAS skill: quickbase-context (team)",
-      "source": "./plugins/quickbase-context",
+      "name": "confluence-submit",
+      "description": "IAS skill: confluence-submit (enterprise)",
+      "source": "./plugins/confluence-submit",
       "category": "productivity"
     },
     {
-      "name": "quickbase-lore",
-      "description": "Surfaces Quickbase company lore, running jokes, and onboarding icebreakers",
-      "source": "./plugins/quickbase-lore",
+      "name": "gtm-plays-brainstorm",
+      "description": "IAS skill: gtm-plays-brainstorm (enterprise)",
+      "source": "./plugins/gtm-plays-brainstorm",
       "category": "productivity"
     },
     {
@@ -27,27 +27,21 @@
       "category": "productivity"
     },
     {
+      "name": "quickbase-context",
+      "description": "IAS skill: quickbase-context (team)",
+      "source": "./plugins/quickbase-context",
+      "category": "productivity"
+    },
+    {
       "name": "quickbase-info",
       "description": "IAS skill: quickbase-info (enterprise)",
       "source": "./plugins/quickbase-info",
       "category": "productivity"
     },
     {
-      "name": "confluence-submit",
-      "description": "IAS skill: confluence-submit (enterprise)",
-      "source": "./plugins/confluence-submit",
-      "category": "productivity"
-    },
-    {
       "name": "skill-example-test",
       "description": "IAS skill: skill-example-test (enterprise)",
       "source": "./plugins/skill-example-test",
-      "category": "productivity"
-    },
-    {
-      "name": "gtm-plays-brainstorm",
-      "description": "IAS skill: gtm-plays-brainstorm (enterprise)",
-      "source": "./plugins/gtm-plays-brainstorm",
       "category": "productivity"
     }
   ]
