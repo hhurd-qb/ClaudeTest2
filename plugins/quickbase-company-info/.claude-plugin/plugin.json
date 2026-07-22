@@ -1,0 +1,9 @@
+{
+  "name": "quickbase-company-info",
+  "version": "1.0.1",
+  "description": "IAS skill: quickbase-company-info (enterprise)",
+  "author": {
+    "name": "Henry Hurd",
+    "email": "hhurd@quickbase.com"
+  }
+}
