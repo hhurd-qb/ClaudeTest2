@@ -1,9 +1,0 @@
-{
-  "name": "skill-example-test",
-  "version": "1.0.1",
-  "description": "IAS skill: skill-example-test (enterprise)",
-  "author": {
-    "name": "Henry Hurd",
-    "email": "hhurd@quickbase.com"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "name": "confluence-submit",
-  "version": "1.0.1",
-  "description": "IAS skill: confluence-submit (enterprise)",
-  "author": {
-    "name": "Henry Hurd",
-    "email": "hhurd@quickbase.com"
-  }
-}
