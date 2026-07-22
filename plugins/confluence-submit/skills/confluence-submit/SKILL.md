@@ -1,6 +1,6 @@
 ---
-
-## name: confluence-submit description: > Trigger this skill whenever the user says "/submit" — with or without anything else in the message. This skill first checks the IAS space for duplicate or overlapping skills, then audits the skill with a built-in five-factor rubric, works with the user to optimize it based on that audit, asks whether it's Enterprise or Team, then always publishes it under the matching "In Review" subpage (Enterprise Skills → In Review, or Team Skills → In Review) in the Internal AI Skills Confluence space (IAS) — never directly into Accepted, Rejected, or a topic subpage — with a companion audit-summary child page showing the skill's strengths and gaps. Every published title includes the submission date. Use this skill immediately when "/submit" appears anywhere in the message. Confirmation is required for any duplicate/overlap found, the optimization pass, and the Enterprise/Team classification, but not for publishing itself once those choices are made.
+name: confluence-submit description: > Trigger this skill whenever the user says "/submit" — with or without anything else in the message. This skill first checks the IAS space for duplicate or overlapping skills, then audits the skill with a built-in five-factor rubric, works with the user to optimize it based on that audit, asks whether it's Enterprise or Team, then always publishes it under the matching "In Review" subpage (Enterprise Skills → In Review, or Team Skills → In Review) in the Internal AI Skills Confluence space (IAS) — never directly into Accepted, Rejected, or a topic subpage — with a companion audit-summary child page showing the skill's strengths and gaps. Every published title includes the submission date. Use this skill immediately when "/submit" appears anywhere in the message. Confirmation is required for any duplicate/overlap found, the optimization pass, and the Enterprise/Team classification, but not for publishing itself once those choices are made.
+---
 
 # /submit — Publish Skill to Confluence
 
@@ -390,3 +390,4 @@ If supplementary content was published in Step 9, add one line per file:
 > 📎 **[filename]** added as a child page — [link]
 
 Keep it short — just the confirmation and the link(s).
+
