@@ -15,6 +15,12 @@
       "category": "productivity"
     },
     {
+      "name": "desk-plant-doctor",
+      "description": "IAS skill: desk-plant-doctor (enterprise)",
+      "source": "./plugins/desk-plant-doctor",
+      "category": "productivity"
+    },
+    {
       "name": "gtm-plays-brainstorm",
       "description": "IAS skill: gtm-plays-brainstorm (enterprise)",
       "source": "./plugins/gtm-plays-brainstorm",
@@ -42,12 +48,6 @@
       "name": "skill-example-test",
       "description": "IAS skill: skill-example-test (enterprise)",
       "source": "./plugins/skill-example-test",
-      "category": "productivity"
-    },
-    {
-      "name": "desk-plant-doctor",
-      "description": "IAS skill: desk-plant-doctor (enterprise)",
-      "source": "./plugins/desk-plant-doctor",
       "category": "productivity"
     }
   ]
