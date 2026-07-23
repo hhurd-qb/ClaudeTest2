@@ -45,15 +45,15 @@
       "category": "productivity"
     },
     {
-      "name": "skill-example-test",
-      "description": "IAS skill: skill-example-test (enterprise)",
-      "source": "./plugins/skill-example-test",
-      "category": "productivity"
-    },
-    {
       "name": "roi",
       "description": "IAS skill: roi (enterprise)",
       "source": "./plugins/roi",
+      "category": "productivity"
+    },
+    {
+      "name": "skill-example-test",
+      "description": "IAS skill: skill-example-test (enterprise)",
+      "source": "./plugins/skill-example-test",
       "category": "productivity"
     }
   ]
