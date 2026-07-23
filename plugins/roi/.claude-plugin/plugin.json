@@ -1,0 +1,9 @@
+{
+  "name": "roi",
+  "version": "1.0.1",
+  "description": "IAS skill: roi (enterprise)",
+  "author": {
+    "name": "Henry Hurd",
+    "email": "hhurd@quickbase.com"
+  }
+}
